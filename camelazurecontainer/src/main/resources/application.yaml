@@ -1,7 +1,11 @@
 spring:
   application:
     name: camleazureblob
-camel:
-  component:
-    azure-storage-blob:
-      access-key: 6RV4cODdSVTMxtDVHiW5HUZ6nim8H3z0r9ilYEqrEfitDlwr8hcSbA+OZgu+ZikOCU0N3oFQjBN1IaXyiKKXCg==
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+logging:
+    level:
+      root: INFO

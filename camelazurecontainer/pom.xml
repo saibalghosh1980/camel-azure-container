@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.10.RELEASE</version>
+		<version>2.1.15.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.oup</groupId>
@@ -26,16 +26,23 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.camel.springboot</groupId>
+			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-spring-boot-starter</artifactId>
-			<version>3.5.0</version>
+			<version>2.25.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-azure-starter -->
 		<dependency>
-			<groupId>org.apache.camel.springboot</groupId>
-			<artifactId>camel-azure-storage-blob-starter</artifactId>
-			<version>3.5.0</version>
-		<!-- use the same version as your Camel core version -->
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-azure-starter</artifactId>
+			<version>2.25.1</version>
 		</dependency>
+
+		<!--<dependency>
+			<groupId>javax.activation</groupId>
+			<artifactId>javax.activation-api</artifactId>
+			<version>1.2.0</version>
+		</dependency>-->
+
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
